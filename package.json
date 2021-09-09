@@ -1,0 +1,18 @@
+{
+  "name": "codegen-apollo-client-executor",
+  "version": "1.0.0",
+  "description": "Generate typesafe apollo client instances",
+  "main": "index.js",
+  "author": "Tyson Skiba <tyson@skiba.com.au>",
+  "license": "MIT",
+  "peerDependencies": {
+    "graphql": "^0.13.0 || ^14.0.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "@graphql-codegen/visitor-plugin-common": "^2.1.2",
+    "change-case-all": "^1.0.14"
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.3"
+  }
+}
